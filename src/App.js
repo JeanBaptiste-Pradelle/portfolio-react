@@ -1,32 +1,34 @@
-import './App.css';
-import Home from './composant/home';
-import About from './composant/About';
-import Contact from './composant/Contact';
-import Temoignage from './composant/Temoignage';
-import Realisation from './composant/Realisation';
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Home from "./composant/Home"
+import About from "./composant/About";
+import Contact from "./composant/Contact";
+import Temoignage from "./composant/Temoignage";
+import Realisation from "./composant/Realisation";
 
 
-const scrollContainer = document.querySelector("main");
+const element =document.querySelector("main")
+element.addEventListener('wheel', (event) => {
+  event.preventDefault();
 
-scrollContainer.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
-    scrollContainer.scrollLeft += evt.deltaY;
+  element.scrollBy({
+    left: event.deltaY < 0 ? -30 : 30,
+  });
 });
-
 
 function App() {
   return (
     <body>
-    <div className="App">
-      <main>
-       <Home/>
-      <About />
-      <Contact />
-      <Temoignage />
-      <Realisation />
-     
-      </main>
-    </div>
+      <div className="App">
+        <main>
+          <Home/>
+          <About />
+          <Contact />
+          <Temoignage />
+          <Realisation />
+        </main>{" "}
+      </div>{" "}
     </body>
   );
 }
