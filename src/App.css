@@ -1,3 +1,33 @@
+
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.about, .temoignage {
+  background-color: #61dafb;
+  min-width: 100vw;
+  min-height: 100vh;
+
+}
+section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+   font-size: 4ch;
+}
+
 .App {
   text-align: center;
 }
