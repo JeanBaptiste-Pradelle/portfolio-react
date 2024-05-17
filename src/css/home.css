@@ -1,4 +1,11 @@
 .barre{
-        background-color: red;
+     color: #FFFFFF;
      width: max-content;
+    
+    
+}
+
+section {
+     background :linear-gradient(0deg,#FFFFFF ,#63ec70 15% , rgb(4, 75, 4) 50%, black );
+     font-family: 'Dune_Rise', sans-serif ;
 }
