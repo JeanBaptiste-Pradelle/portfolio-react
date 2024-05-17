@@ -1,0 +1,11 @@
+.barre{
+    color: #FFFFFF;
+    width: max-content;
+   
+   
+}
+
+.sabout{
+    background :linear-gradient(90deg,#FFFFFF ,#63ec70 15% , rgb(4, 75, 4) 50%, black );
+    font-family: 'Dune_Rise', sans-serif ;
+}
