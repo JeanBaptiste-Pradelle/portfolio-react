@@ -1,8 +1,15 @@
 /* Déclaration de la police */
 @font-face {
   font-family: 'Dune_Rise';
-  src: url('../public/police/neuropol\ x\ rg.otf') format('opentype');
+  src: url('../public/police/Dune_Rise.otf') format('opentype');
 }
+
+@font-face {
+  font-family :'Neuropol';
+  src: url('../public/police/neuropol\ x\ rg.otf')
+}
+
+
 
 /* Style global du corps */
 body {

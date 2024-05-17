@@ -1,0 +1,16 @@
+
+.temoinSection{
+    background: linear-gradient(
+      280deg,
+      #ffffff,
+      #63ec70 15%,
+      rgb(4, 75, 4) 50%,
+      black
+    );
+    font-family: "Dune_Rise", sans-serif;
+  }
+
+  .temoin {
+    font-family: "Neuropol", sans-serif;
+  }
+  
