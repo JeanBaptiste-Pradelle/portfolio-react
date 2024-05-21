@@ -9,6 +9,11 @@
   src: url('../public/police/neuropol\ x\ rg.otf')
 }
 
+@font-face{
+  font-family: 'Sujun';
+  src: url('../public/police/Sujun-Oblique.otf')
+}
+
 
 
 /* Style global du corps */

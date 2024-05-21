@@ -1,8 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
 import { gsap } from "gsap";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import About from "./composant/About";
 import Contact from "./composant/Contact";
 import Temoignage from "./composant/Temoignage";
@@ -10,6 +10,7 @@ import Realisation from "./composant/Realisation";
 import Home from "./composant/Home";
 
 function App() {
+  // Fonction Scroll Horizontal
   useEffect(() => {
     const element = document.querySelector("main");
 
@@ -20,11 +21,11 @@ function App() {
       });
     };
 
-    element.addEventListener('wheel', handleWheel);
+    element.addEventListener("wheel", handleWheel);
 
     // Clean up function to remove the event listener
     return () => {
-      element.removeEventListener('wheel', handleWheel);
+      element.removeEventListener("wheel", handleWheel);
     };
   }, []);
 
@@ -36,8 +37,6 @@ function App() {
         <Realisation />
         <Temoignage />
         <Contact />
-       
-        
       </main>
     </div>
   );

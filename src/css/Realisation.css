@@ -1,14 +1,8 @@
 
 .realsection{
-    background: linear-gradient(
-      120deg,
-      #ffffff,
-      #63ec70 15%,
-      rgb(4, 75, 4) 50%,
-      black
-    );
-    font-family: "Dune_Rise", sans-serif;
-  }
+  background :linear-gradient( 30deg, #B78E5E ,#FFF1CC 80%);
+  font-family: 'Sujun', sans-serif ;
+}
   
   .projet1, .projet2{
     font-family: "neuropol", sans-serif;

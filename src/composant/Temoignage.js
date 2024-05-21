@@ -3,13 +3,13 @@ import "../css/Temoignage.css";
 
 function Temoignage() {
   return (
-    <section className="temoinSection  w-100 h-100 d-flex flex-column align-items-center justify-content-center justify-self-center">
+    <section id="temoin" className="temoinSection   h-100 d-flex flex-column align-items-center justify-content-center justify-self-center">
       <div className=" w-100 mb-5 d-flex justify-content-center justify-self-center">
         <h1 className="mx-auto my-2 p-2 w-100 display-5 text-center text-white ">
           Temoignage
         </h1>
       </div>
-      <div className=" temoin d-flex flex-row col-12 ">
+      <div className=" temoin d-flex flex-row col-10 ">
         <div className="col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
           {" "}
           <h2>Temoignage 1</h2>
