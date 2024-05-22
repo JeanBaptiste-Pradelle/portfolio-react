@@ -1,10 +1,11 @@
 
 .realsection{
-  background :linear-gradient( 30deg, #B78E5E ,#FFF1CC 80%);
+  background :linear-gradient( -90deg,#DBC793 30%,#FFF1CC 60%);
   font-family: 'Sujun', sans-serif ;
 }
   
   .projet1, .projet2{
     font-family: "neuropol", sans-serif;
+    background-color: #B79F5E;
 
   }

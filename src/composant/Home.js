@@ -7,8 +7,7 @@ function Home() {
 		startAt: {opacity:0},
       opacity: 1,
       x: 100,
-	
-      duration: 5,
+	duration: 5,
     });
   });
 
