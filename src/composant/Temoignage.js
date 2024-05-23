@@ -16,8 +16,8 @@ function Temoignage() {
           Temoignage
         </h1>
       </div>
-      <div className=" temoin d-flex flex-row col-10 ">
-        <div className="col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
+      <div className=" d-flex flex-row col-10 ">
+        <div className="temoignage1 col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
           {" "}
           <h2>Temoignage 1</h2>
           <span className="fs-5">
@@ -26,7 +26,7 @@ function Temoignage() {
           </span>
         </div>
 
-        <div className="col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
+        <div className=" temoignage2 col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
           {" "}
           <h2>Temoignage 2</h2>
           <span className="fs-5">
@@ -35,7 +35,7 @@ function Temoignage() {
           </span>
         </div>
 
-        <div className="col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
+        <div className=" temoignage3 col-4 text-white mx-2 my-2 p-2 border border-2 border-black">
           {" "}
           <h2>Temoignage 3</h2>
           <span className="fs-5">

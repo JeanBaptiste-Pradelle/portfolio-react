@@ -3,3 +3,7 @@
   font-family: 'Sujun', sans-serif ;
 }
 
+.Description, .photo, .reseaux{
+  background: rgba(71, 52, 21, 70%);
+}
+
