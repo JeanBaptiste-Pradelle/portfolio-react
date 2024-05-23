@@ -32,7 +32,17 @@ function Realisation() {
           d'openfactfood <br /> Technologie utilisé: React/Bootstrap 5.3/HTML
           5/CSS
         </span>
-        <span className="fs-5 mx-auto py-2  px-4 "> Photo du projet +lien</span>
+        <span className="fs-5 mx-auto py-2  px-4 ">
+          {" "}
+          <a
+            href="https://jeanba63.github.io/myuka/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            {" "}
+            Myuka
+          </a>
+        </span>
         <span className="fs-5 mx-auto py-2  px-4 ">
           {" "}
           Année du projet: 2024
@@ -52,7 +62,7 @@ function Realisation() {
       <div className="projet3 d-flex col-10 border border-4 border-black py-2  px-4 mx-auto my-2   ">
         <span className="fs-5 col-5 mx-auto py-2  px-4 ">
           {" "}
-          <span className="fw-bold"> Projet 2:</span> <br /> Descriptif du
+          <span className="fw-bold"> Projet 3:</span> <br /> Descriptif du
           projet <br /> Technologie utilisé
         </span>
         <span className="fs-5 mx-auto py-2  px-4 "> Photo du projet +lien</span>
@@ -62,14 +72,12 @@ function Realisation() {
       <div className="projet4 d-flex col-10 border border-4 border-black py-2  px-4 mx-auto my-2   ">
         <span className="fs-5 col-5 mx-auto py-2  px-4 ">
           {" "}
-          <span className="fw-bold"> Projet 2:</span> <br /> Descriptif du
+          <span className="fw-bold"> Projet 4:</span> <br /> Descriptif du
           projet <br /> Technologie utilisé
         </span>
         <span className="fs-5 mx-auto py-2  px-4 "> Photo du projet +lien</span>
         <span className="fs-5 mx-auto py-2  px-4 "> Année du projet</span>{" "}
       </div>
-
-  
     </section>
   );
 }

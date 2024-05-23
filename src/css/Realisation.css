@@ -6,6 +6,8 @@
   
   .projet1, .projet2{
     font-family: "neuropol", sans-serif;
-    background-color: #B79F5E;
+    background:rgb(183 159 94/60%);
+    box-shadow: -10px 5px 20px black;
+    
 
   }
