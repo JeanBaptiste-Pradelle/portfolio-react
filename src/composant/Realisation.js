@@ -35,7 +35,7 @@ function Realisation() {
         <span className="fs-5 mx-auto py-2  px-4 ">
           {" "}
           <a
-            href="https://jeanba63.github.io/myuka/"
+            href="https://jeanbaptiste-pradelle.github.io/myuka/"
             target="_blank"
             rel="noreferrer noopener"
           >
