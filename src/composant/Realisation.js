@@ -29,7 +29,7 @@ function Realisation() {
           <span className="fw-bold"> Myuka: </span>
           <br />
           Réalisation d'un site web type yuka en utilisant l'API libre
-          d'openfactfood <br /> Technologie utilisé: React/Bootstrap 5.3/HTML
+          d'openfactfood <br /> Technologie utilisé: React/Bootstrap /HTML
           5/CSS
         </span>
         <span className="fs-5 mx-auto py-2  px-4 ">
