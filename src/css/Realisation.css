@@ -1,13 +1,21 @@
-
-.realsection{
-  background :linear-gradient( -90deg,#DBC793 30%,#FFF1CC 60%);
-  font-family: 'Sujun', sans-serif ;
+.realsection {
+  background: linear-gradient(-90deg, #dbc793 30%, #fff1cc 60%);
+  font-family: "Sujun", sans-serif;
+  height: 100vh;
 }
-  
-  .projet1, .projet2{
-    font-family: "neuropol", sans-serif;
-    background:rgb(183 159 94/60%);
-    box-shadow: -10px 5px 20px black;
-    
 
-  }
+.project-container {
+  width: 100%;
+  height: 70vh;
+
+}
+
+.projet1,
+.projet2,
+.projet3,
+.projet4,
+.projet5 {
+  font-family: "neuropol", sans-serif;
+  background: rgba(183, 159, 94, 0.6);
+  box-shadow: -10px 5px 20px black;
+}

@@ -32,11 +32,11 @@ function About() {
   });
   return (
     <section
-      id="aPropros"
+      id=""
       className="sabout w-100 h-100 d-flex flex-column align-items-center justify-content-center"
     >
       <div className="title-container w-100 mb-5 d-flex justify-content-center justify-self-center">
-        <h1 className=" titreAbout mx-auto my-2 p-2 w-100 display-5 text-center text-white">
+        <h1 className=" titreAbout  my-2 p-2  display-5 text-center text-white">
           ALL YOU NEED TO KNOW ABOUT ME
         </h1>
 

@@ -1,31 +1,28 @@
-
-html,
-body {
+html, body {
   margin: 0;
   font-family: sans-serif;
+  overflow-x: hidden; /* Important for preventing horizontal scrollbar */
 }
 
 main {
-  overflow-x: hidden;
+  overflow: hidden; /* Ensure no overflow on the main container */
+}
+
+.horizontal {
   display: flex;
+  width: 100%;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-.about, .temoignage {
-  background-color: #61dafb;
-  min-width: 100vw;
-  min-height: 100vh;
-
-}
-section {
-  min-width: 100vw;
-  min-height: 100vh;
+.panel {
+  flex-shrink: 0;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-   font-size: 4ch;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.realisation {
+  position: relative;
+  overflow-y: auto; /* Allow vertical scrolling within the Realisation section */
+}
