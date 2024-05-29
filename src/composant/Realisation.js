@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import { EaselPlugin } from "gsap/EaselPlugin";
 import "../css/Realisation.css";
-
-gsap.registerPlugin(EaselPlugin);
 
 function Realisation() {
   useEffect(() => {
@@ -20,7 +17,7 @@ function Realisation() {
       className="realsection w-100 h-100 d-flex flex-column align-items-center justify-content-center"
     >
       <div className="title-container mb-5 d-flex justify-content-center">
-        <h1 className="realTitre d-flex justify-content-center my-2 p-2 w-100 display-5 text-center text-white">
+        <h1 className="realTitre d-flex justify-content-center my-2 p-2 w-100 display-5 text-center text-lg-white">
           MES PROJETS
         </h1>
       </div>

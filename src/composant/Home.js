@@ -15,8 +15,8 @@ function Home() {
   return (
     <section id="Acceuil " className="h-100 w-100">
      
-      <div className=" homeDiv  h-100 d-flex flex-column justify-content-center align-content-center text-black  ">
-        <span className="presentation col-10 d-flex justify-content-center">
+      <div className=" homeDiv  h-100 d-flex flex-column justify-content-center align-content-center   ">
+        <span className="presentation col-10 d-flex justify-content-center ">
           HI I’m Jean-Baptiste a Full-Stack web developper based in
           Clermont-Ferrand, France. Blablablalblabla (on hover change background
           color)

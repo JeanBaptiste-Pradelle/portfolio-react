@@ -26,3 +26,25 @@ main {
   position: relative;
   overflow-y: auto; /* Allow vertical scrolling within the Realisation section */
 }
+
+.navbar {
+  z-index: 3;
+
+}
+
+@media (max-width: 576px) {
+  .panel {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .realisation {
+    overflow-y: visible; /* Disable vertical scrolling for Realisation section on mobile */
+  }
+
+  .barre{
+      background-color: linear-gradient(-270deg, #dbc793, #fff1cc 80%);
+     }
+
+}

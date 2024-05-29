@@ -1,17 +1,26 @@
-
-.temoinSection{
-  background :linear-gradient( 0deg, #DBC793 ,#FFF1CC 80%);
-     font-family: 'Sujun', sans-serif ;
-     width: 90%;
+.temoinSection {
+  background: linear-gradient(0deg, #dbc793, #fff1cc 80%);
+  font-family: 'Sujun', sans-serif;
+  width: 100%; /* Updated from 90% to 100% */
 }
 
+.temoin {
+  font-family: "Neuropol", sans-serif;
+}
 
-  .temoin {
-    font-family: "Neuropol", sans-serif;
+.temoignage1, .temoignage2 {
+  background: rgba(225, 206, 154, 100%);
+  box-shadow: 10px 15px 20px black;
+}
+
+@media (max-width: 576px) {
+  .temoinSection {
+    height: auto;
+    padding-bottom: 20px;
   }
-  
-  .temoignage1, .temoignage2, .temoignage3{
-    background: rgba(225, 206, 154, 100%);
-    box-shadow: 10px 15px 20px black;
-      
+
+  .temoignage1, .temoignage2 {
+    width: 100%;
+    margin: 0.5rem 0;
   }
+}

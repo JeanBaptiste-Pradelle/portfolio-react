@@ -1,10 +1,10 @@
-.barre{
-     color: #FFFFFF;
-     width: max-content;
-     font-family: 'Dune_Rise', sans-serif;
- }
+.barre {
+  color: #ffffff;
+  width: max-content;
+  font-family: "Dune_Rise", sans-serif;
+}
 
 .homeDiv {
-     background :linear-gradient( -270deg, #DBC793 ,#FFF1CC 80%);
-     font-family: 'Sujun', sans-serif ;
+  background: linear-gradient(-270deg, #dbc793, #fff1cc 80%);
+  font-family: "Sujun", sans-serif;
 }

@@ -1,6 +1,20 @@
 .scontact {
-    background :linear-gradient(90deg, #DBC793 ,#FFF1CC 80% );
-    font-family: 'Sujun', sans-serif ;
+  background: linear-gradient(90deg, #dbc793, #fff1cc 80%);
+  font-family: 'Sujun', sans-serif;
+}
+
+@media (max-width: 576px) {
+  .scontact {
+    height: auto;
+    padding-bottom: 20px;
   }
-  
-  
+
+  .form-control {
+    width: 100%;
+  }
+
+  h1{
+    width: 80%;
+  }
+
+}

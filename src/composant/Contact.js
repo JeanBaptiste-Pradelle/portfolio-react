@@ -3,23 +3,12 @@ import emailjs from "@emailjs/browser";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Contact.css";
 
-// Utilisation de useRef pour créer une référence form qui pointe vers le formulaire DOM.
-// Utilisation de useState pour créer une variable d'état statusMessage qui stocke les messages de statut (succès ou échec).
 const Contact = () => {
   const form = useRef();
   const [statusMessage, setStatusMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    // Empêche le comportement par défaut du formulaire avec e.preventDefault().
-    // Utilise emailjs.sendForm pour envoyer le formulaire. Les arguments fournis sont :
-    // service_t1k9u9h : ID du service EmailJS.
-    // template_p2hga0a : ID du template EmailJS.
-    // form.current : Référence au formulaire DOM.
-    // 'AeFSYwPhq_Z-OVwyn' : Clé publique EmailJS.
-    // Si l'envoi réussit, le message de succès est affiché et effacé après 5 secondes.
-    // Si l'envoi échoue, un message d'erreur est affiché.
 
     emailjs
       .sendForm(
@@ -31,7 +20,7 @@ const Contact = () => {
       .then(
         () => {
           setStatusMessage("Email sent successfully!");
-          setTimeout(() => setStatusMessage(""), 5000); // Clear message after 5 seconds
+          setTimeout(() => setStatusMessage(""), 5000);
         },
         (error) => {
           setStatusMessage("Failed to send email, please try again.");
@@ -59,7 +48,7 @@ const Contact = () => {
           className="needs-validation"
           Validate
         >
-          <div className="mb-3 col-6 mx-auto text-center ">
+          <div className="mb-3 col-10 col-md-6 mx-auto text-center">
             <label htmlFor="user_name" className="form-label">
               Nom
             </label>
@@ -71,7 +60,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="mb-3 col-6 mx-auto text-center">
+          <div className="mb-3 col-10 col-md-6 mx-auto text-center">
             <label htmlFor="user_email" className="form-label">
               Email
             </label>
@@ -83,7 +72,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="mb-3 mx-auto col-6 text-center">
+          <div className="mb-3 col-10 col-md-6 mx-auto text-center">
             <label htmlFor="message" className="form-label">
               Message
             </label>
@@ -112,5 +101,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// Ajout des CAPTCHA via EmailJS des que possible (site en ligne)
