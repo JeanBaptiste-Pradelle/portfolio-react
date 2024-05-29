@@ -29,7 +29,10 @@ main {
 
 .navbar {
   z-index: 3;
+}
 
+#offcanvasDarkNavbar {
+  background-image: linear-gradient(-270deg, #dbc793, #fff1cc 70%) !important;
 }
 
 @media (max-width: 576px) {
@@ -43,8 +46,9 @@ main {
     overflow-y: visible; /* Disable vertical scrolling for Realisation section on mobile */
   }
 
-  .barre{
-      background-color: linear-gradient(-270deg, #dbc793, #fff1cc 80%);
-     }
+  #offcanvasDarkNavbar {
+    background-image: linear-gradient(-270deg, #dbc793, #fff1cc 80%) !important;
+  }
+
 
 }

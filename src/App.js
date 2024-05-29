@@ -1,8 +1,7 @@
 import "./App.css";
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger, ScrollToPlugin } from "gsap/all";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import About from "./composant/About";
@@ -51,63 +50,43 @@ function App() {
     return () => window.removeEventListener("resize", handleResize); // Clean up event listener on unmount
   }, []);
 
+  const handleNavigation = (id) => {
+    gsap.to(window, { duration: 1, scrollTo: `#${id}` });
+  };
+
   return (
     <>
       <div>
-        <nav className="barre navbar navbar-expand-lg position-fixed top-0 end-0 m-3 fs-5 fw-bold  z-3">
-          <div className="container-fluid">
-            <button
-              className="navbar-toggler  "
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+        <nav className="navbar navbar-dark  fixed-top bg-gradient">
+          <div className="container-fluid ">
+         
+            <button className="navbar-toggler btn btn-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div
-              className="collapse navbar-collapse "
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item p-1 ">
-                  <a
-                    id="Nav1"
-                    className="nav-link nav-link-home t"
-                    href="#home"
-                  >
-                    ACCUEIL
-                  </a>
-                </li>
-                <li className="nav-item p-1 px-2">
-                  <a className="nav-link nav-link-about " href="#about">
-                    A PROPOS
-                  </a>
-                </li>
-                <li className="nav-item p-1 px-2">
-                  <a
-                    className="nav-link nav-link-realisation  "
-                    href="#realisation"
-                  >
-                    REALISATION
-                  </a>
-                </li>
-                <li className="nav-item p-1 px-2">
-                  <a
-                    className="nav-link nav-link-temoignage "
-                    href="#temoignage"
-                  >
-                    TEMOIGNAGE
-                  </a>
-                </li>
-                <li className="nav-item p-1 px-2">
-                  <a className="nav-link nav-link-contact " href="#contact">
-                    CONTACT
-                  </a>
-                </li>
-              </ul>
+            <div className="offcanvas offcanvas-end h-50 w-50 bg-gradient" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div className="offcanvas-header">
+                <h5 className="offcanvas-title" id="Menu">Menu</h5>
+                <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div className="offcanvas-body">
+                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li className="nav-item">
+                    <a className="nav-link active text-black" aria-current="page" href="#" onClick={() => handleNavigation('home')} data-bs-dismiss="offcanvas">Home</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-black" href="#" onClick={() => handleNavigation('about')} data-bs-dismiss="offcanvas">About</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-black" href="#" onClick={() => handleNavigation('realisation')} data-bs-dismiss="offcanvas">Realisation</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-black" href="#" onClick={() => handleNavigation('temoignage')} data-bs-dismiss="offcanvas">Temoignage</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-black" href="#" onClick={() => handleNavigation('contact')} data-bs-dismiss="offcanvas">Contact</a>
+                  </li>
+                </ul>
+                </div>
             </div>
           </div>
         </nav>
