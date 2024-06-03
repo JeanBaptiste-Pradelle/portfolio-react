@@ -13,7 +13,7 @@ function Temoignage() {
       className="temoinSection w-100 h-100 d-flex flex-column align-items-center justify-content-center"
     >
       <div className="w-100 mb-5 d-flex justify-content-center">
-        <h1 className="temoinTitre mx-auto my-2 p-2 w-100 display-5 text-center text-white">
+        <h1 className="temoinTitre mx-auto my-2 p-2 w-100 display-5 text-center text-black">
           Temoignage
         </h1>
       </div>

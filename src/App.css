@@ -31,11 +31,17 @@ main {
   z-index: 3;
 }
 
-#offcanvasDarkNavbar {
-  background-image: linear-gradient(-270deg, #dbc793, #fff1cc 70%) !important;
+@media (min-width: 576px) {
+  .navbar {
+    display: none; /* Hide the navbar on screens larger than 576px */
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
+  .navbar {
+    display: flex; /* Show the navbar on screens smaller than 576px */
+  }
+
   .panel {
     width: 100%;
     height: auto;
@@ -49,6 +55,8 @@ main {
   #offcanvasDarkNavbar {
     background-image: linear-gradient(-270deg, #dbc793, #fff1cc 80%) !important;
   }
+}
 
-
+#offcanvasDarkNavbar {
+  background-image: linear-gradient(-270deg, #dbc793, #fff1cc 70%) !important;
 }

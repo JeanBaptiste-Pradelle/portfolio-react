@@ -16,10 +16,10 @@ function Home() {
     <section id="Acceuil " className="h-100 w-100">
      
       <div className=" homeDiv  h-100 d-flex flex-column justify-content-center align-content-center   ">
-        <span className="presentation col-10 d-flex justify-content-center ">
-          HI I’m Jean-Baptiste a Full-Stack web developper based in
-          Clermont-Ferrand, France. Blablablalblabla (on hover change background
-          color)
+        <span className="presentation col-10 d-flex justify-content-center mx-auto fs-4 ">
+          Enchanté!
+          Mon nom est Jean-Baptiste, je suis un développeur full-stack basé à Clermont-Ferrand.
+          Passionné par le développement web depuis toujours je suis à votre disposition pour réaliser tout vos projets.
         </span>
       </div>
     </section>

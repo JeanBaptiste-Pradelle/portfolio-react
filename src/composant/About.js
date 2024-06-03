@@ -34,8 +34,8 @@ function About() {
       className="sabout w-100 h-100 d-flex flex-column align-items-center justify-content-center"
     >
       <div className="title-container w-100 mb-5 d-flex justify-content-center justify-self-center">
-        <h1 className="titreAbout my-2 p-2 display-5 text-center text-white">
-          ALL YOU NEED TO KNOW ABOUT ME
+        <h1 className="titreAbout my-2 p-2 display-5 text-center text-black">
+          A PROPROS DE MOI
         </h1>
       </div>
       <div className="content-container d-flex justify-content-center align-items-flex-start col-11 flex-wrap">
@@ -110,7 +110,7 @@ function About() {
             Linkedin
           </a>
           <a
-            href="https://github.com/Jeanba63"
+            href="https://github.com/JeanBaptiste-Pradelle"
             target="_blank"
             rel="noreferrer noopener"
             className="text-reset text-decoration-none"
@@ -118,7 +118,7 @@ function About() {
             Github
           </a>
           <a
-            href="https://github.com/Jeanba63/CV_web/blame/main/Resume-JBP.docx"
+            href="https://github.com/JeanBaptiste-Pradelle/CV/blob/main/CV_Pradelle.docx"
             target="_blank"
             rel="noreferrer noopener"
             className="text-reset text-decoration-none"

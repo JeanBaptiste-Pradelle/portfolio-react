@@ -1,3 +1,4 @@
+
 import "./App.css";
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -22,7 +23,7 @@ function App() {
         let ctx = gsap.context(() => {
           let panels = gsap.utils.toArray(".panel");
 
-          // ScrollTrigger for horizontal scrolling
+          // ScrollTrigger pour defilement horizontal
           gsap.to(panels, {
             xPercent: -100 * (panels.length - 1),
             ease: "none",
@@ -38,16 +39,16 @@ function App() {
 
         return () => ctx.revert();
       } else {
-        // Remove horizontal scroll animation if screen width is less than or equal to 576px
+        //Supprimler le scroll horizontal quand >576px
         gsap.killTweensOf(window);
         ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
       }
     };
 
-    handleResize(); // Initial check
+    handleResize(); // Check initial
     window.addEventListener("resize", handleResize); // Add resize event listener
 
-    return () => window.removeEventListener("resize", handleResize); // Clean up event listener on unmount
+    return () => window.removeEventListener("resize", handleResize); // Nettoyer le event listener
   }, []);
 
   const handleNavigation = (id) => {
@@ -57,9 +58,8 @@ function App() {
   return (
     <>
       <div>
-        <nav className="navbar navbar-dark  fixed-top bg-gradient">
-          <div className="container-fluid ">
-         
+        <nav className="navbar navbar-dark fixed-top bg-gradient d-md-none">
+          <div className="container-fluid">
             <button className="navbar-toggler btn btn-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -86,7 +86,7 @@ function App() {
                     <a className="nav-link text-black" href="#" onClick={() => handleNavigation('contact')} data-bs-dismiss="offcanvas">Contact</a>
                   </li>
                 </ul>
-                </div>
+              </div>
             </div>
           </div>
         </nav>
