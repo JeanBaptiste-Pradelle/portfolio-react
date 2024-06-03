@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.b12f170e.css",
-    "main.js": "/portfolio-react/static/js/main.3b8329e2.js",
+    "main.css": "/portfolio-react/static/css/main.c53d5b48.css",
+    "main.js": "/portfolio-react/static/js/main.888a4c56.js",
     "static/js/453.1407b060.chunk.js": "/portfolio-react/static/js/453.1407b060.chunk.js",
     "static/media/neuropol x rg.otf": "/portfolio-react/static/media/neuropol x rg.06961f45251a9f609a95.otf",
+    "static/media/asimovian-Regular.ttf": "/portfolio-react/static/media/asimovian-Regular.ed0e5c43a31db849e2ae.ttf",
     "static/media/Dune_Rise.otf": "/portfolio-react/static/media/Dune_Rise.cf7e108cd4cc1bd7ba6a.otf",
     "static/media/Sujun-Oblique.otf": "/portfolio-react/static/media/Sujun-Oblique.998d3403776912639cb6.otf",
     "index.html": "/portfolio-react/index.html",
-    "main.b12f170e.css.map": "/portfolio-react/static/css/main.b12f170e.css.map",
-    "main.3b8329e2.js.map": "/portfolio-react/static/js/main.3b8329e2.js.map",
+    "main.c53d5b48.css.map": "/portfolio-react/static/css/main.c53d5b48.css.map",
+    "main.888a4c56.js.map": "/portfolio-react/static/js/main.888a4c56.js.map",
     "453.1407b060.chunk.js.map": "/portfolio-react/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b12f170e.css",
-    "static/js/main.3b8329e2.js"
+    "static/css/main.c53d5b48.css",
+    "static/js/main.888a4c56.js"
   ]
 }
