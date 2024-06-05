@@ -1,7 +1,7 @@
 .temoinSection {
   background: linear-gradient(0deg, #dbc793, #fff1cc 80%);
   font-family: 'Sujun', sans-serif;
-  width: 100%; /* Updated from 90% to 100% */
+  width: 90%; 
 }
 
 .temoin {
@@ -10,7 +10,7 @@
 
 .temoignage1, .temoignage2 {
   background: rgba(225, 206, 154, 100%);
-  box-shadow: 10px 15px 20px black;
+
 }
 
 @media (max-width: 576px) {

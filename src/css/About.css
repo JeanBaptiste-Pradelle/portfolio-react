@@ -1,23 +1,69 @@
 .sabout {
   background: linear-gradient(-180deg, #dbc793, #fff1cc 80%);
   font-family: 'Sujun', sans-serif;
+  min-height: 100vh; 
+  overflow: auto; 
+}
+
+.title-container {
+  width: 100%;
+  top: 0;
+  z-index: 10; 
+  background: linear-gradient(-180deg, #dbc793, #fff1cc 80%);
+}
+
+.content-container {
+  width: 90%;
+  height: 70vh;
 }
 
 .Description, .photo, .reseaux {
   background: rgba(71, 52, 21, 70%);
 }
 
+.photo, .reseaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo {
+  overflow: hidden;
+  width: 25%;
+  height: 75%;
+  ;
+}
+
 @media (max-width: 576px) {
   .sabout {
     flex-direction: column;
+    overflow: auto; 
+  }
+
+  .title-container {
+    align-self: flex-start;
   }
 
   .content-container {
     flex-direction: column;
+    max-height: none;
+    height: auto;
   }
 
-  .Description, .photo, .reseaux {
-    width: 100%;
-    margin: 0.5rem 0;
+  .Description,.reseaux {
+      margin: 0.5rem 0;
+    align-items: center;
+    justify-content: center;
   }
+
+  .photo{
+    width: 50%;
+  height: 75%; }
 }

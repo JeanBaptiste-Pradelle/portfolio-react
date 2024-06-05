@@ -18,14 +18,14 @@ function Temoignage() {
         </h1>
       </div>
       <div className="d-flex flex-row col-10 flex-wrap justify-content-center">
-        <div className="temoignage1 col-10 col-md-4 text-white mx-2 my-2 p-2 border border-2 border-black">
+        <div className="temoignage1 col-10 col-md-4 text-white mx-2 my-2 p-2 border border-2 border-black rounded-4">
           <h2>Temoignage 1</h2>
           <span className="fs-5">
             Ceci est le 1er Temoignage d'une longue série
           </span>
         </div>
 
-        <div className="temoignage2 col-10 col-md-4 text-white mx-2 my-2 p-2 border border-2 border-black">
+        <div className="temoignage2 col-10 col-md-4 text-white mx-2 my-2 p-2 border border-2 border-black rounded-4">
           <h2>Temoignage 2</h2>
           <span className="fs-5">
             Ceci est le 2eme Temoignage d'une longue série
