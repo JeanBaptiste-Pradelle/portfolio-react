@@ -94,7 +94,7 @@ function About() {
           </table>
         </div>
         {/* Photo */}
-        <div className="photo d-flex flex-column justify-content-center text-white  mx-3 flex-grow-1 border border-2 border-black rounded-circle  " >
+        <div className="photo d-flex flex-column justify-content-center text-white  mx-3 flex-grow-1 border border-2 border-black rounded-circle object-fit-cover h-25   " >
           <img src={`${process.env.PUBLIC_URL}/image/photojb.jpg`} className="img-fluid w-100 h-100" alt="image de Jean-Baptiste" />
         </div>
 
